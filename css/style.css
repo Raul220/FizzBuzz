@@ -1,0 +1,34 @@
+h2 {
+    text-align: center;
+    margin-top: 15px;
+}
+.container{
+    text-align: center;
+}
+#numberList {
+    margin-top: 15px;
+}
+#intervalForm {
+    display: inline-flex;
+}
+#intervalForm .form-group {
+    margin-right: 10px;
+}
+#intervalForm .form-group:last-of-type {
+    display: flex;
+    flex-direction: column;
+}
+#intervalForm .form-group:last-of-type input{
+    margin-top: auto;
+}
+#intervalForm .form-group label {
+    text-align: center;
+    width: 100%;
+}
+.form-control, .btn{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100px;
+}
