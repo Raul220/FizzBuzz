@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FizzBuzz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <h2 >FizzBuzz Test</h2>
+
+    <div class="container">
+        <div id="intervalForm">
+            <div class="form-group">
+                <label>Initial Value</label>
+                <input id="initNumber" type="number" class="form-control" value="1" min="1" max="99">
+            </div>
+            <div class="form-group">
+                <label>Final Value</label>
+                <input id="finalNumber" type="number" class="form-control" value="100" min="2" max="100">
+            </div>
+            <div class="form-group">
+                <input type="button" id="actionButton" class="btn btn-primary" value="Generate">
+            </div>
+        </div>
+        
+        <div id="numberList" class="row"></div>
+    </div>    
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="test/script.test.js"></script>
+</body>
+</html>
